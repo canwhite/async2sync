@@ -1,5 +1,5 @@
 # async2sync
-将异步操作转化成waterfall同步形式，适配前端有顺序的io操作
+将异步数据请求按publish的顺序串联，中间有数据传递，形成瀑布流，并且可以设置初始参数
 
 ## 引入
 方法1：
@@ -12,6 +12,7 @@
 ## 使用
 ```
 import AsyncWaterfall from 'async2sync'
+//定义初始传入的参数
 let queue = new AsyncWaterfall(['name']);
 console.time('cost6');
 
@@ -41,7 +42,7 @@ queue.publish_promise('3',function(data){
         },3000)
     });
 });
-//订阅
+//订阅,传入初始参数，按顺序执行异步操作
 queue.promise('series promise').then(res=>{
     console.log(res);
     console.timeEnd('cost6');
