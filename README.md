@@ -51,5 +51,16 @@ queue.promise('series promise').then(res=>{
     console.timeEnd('cost4');
 });
 
+/*
+输出：
+series promise 1 Home.vue:26
+this is 2 , get data form 1: 1 Home.vue:35
+this is 3 , get data from 2: 2 Home.vue:43
+2 Home.vue:50
+cost6：6007 毫秒 - 倒计时结束
+
+
+*/
+
 
 ```
