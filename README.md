@@ -48,7 +48,7 @@ queue.promise('series promise').then(res=>{
     console.timeEnd('cost6');
 }).catch((err)=>{
     console.log('error',err);
-    console.timeEnd('cost4');
+    console.timeEnd('cost6');
 });
 
 /*
