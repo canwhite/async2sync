@@ -1,0 +1,19 @@
+{
+  "name": "async2sync",
+  "version": "1.0.0",
+  "description": "async waterfall",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canwhite/async2sync.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canwhite/async2sync/issues"
+  },
+  "homepage": "https://github.com/canwhite/async2sync#readme"
+}
