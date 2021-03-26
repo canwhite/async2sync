@@ -2,9 +2,13 @@
 将异步操作转化成waterfall同步形式，适配前端有顺序的io操作
 
 ## 引入
+方法1：
 >因为没有发布的npm，是以npm私包存放的，so以私包方式加载
 >npm install git+ssh://git@github.com:canwhite/async2sync.git
->使用的时候可以自己在git上fork一下，同样格式去调用安装
+>使用的时候可以自己在git上fork一下，同样格式去调用安装  
+
+方法2:  
+>直接下zip包到本地加载
 ## 使用
 ```
 import AsyncWaterfall from 'async2sync'
