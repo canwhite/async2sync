@@ -1,5 +1,5 @@
 {
-  "name": "async2sync",
+  "name": "asynctsync",
   "version": "1.0.0",
   "description": "async waterfall",
   "main": "index.js",
