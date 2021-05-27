@@ -9,6 +9,13 @@
 
 方法2:  
 >直接下zip包到本地加载
+
+方法3：
+>npm包发布async2sync失败，试了一下，已经有人用了这个名字，大概二三十行代码实现了一个回调的库  
+>没办法只能改名叫做asynctsync，不要问我为什么中间不用to，不好意思也被占了  
+>so：  
+>我们可以npm i asynctsync
+
 ## 使用
 ```
 import AsyncWaterfall from 'async2sync'
